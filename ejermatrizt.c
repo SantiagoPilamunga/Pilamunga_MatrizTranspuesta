@@ -15,8 +15,10 @@ int main()
         for (int j = 0; j < m; j++)
         {
             matrix[i][j]=rand()%101;
+            printf("Matriz original: \n");
+            printf("%d\t", matrix[i][j]);
         }
-        
+        printf("\n");
     }
     
     return 0;
