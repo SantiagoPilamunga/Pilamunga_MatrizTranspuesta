@@ -15,10 +15,9 @@ int main()
     {
         for (int j = 0; j < m; j++)
         {
-            matrix[i][j]=rand()%101;
-            
+            matrix[i][j] = rand() % 101;
+
             printf("%d\t", matrix[i][j]);
-            
         }
         printf("\n");
     }
@@ -28,11 +27,11 @@ int main()
     {
         for (int j = 0; j < n; j++)
         {
-            matrix2[i][j]=matrix[j][i];
+            matrix2[i][j] = matrix[j][i];
             printf("%d\t", matrix2[i][j]);
         }
         printf("\n");
     }
-    
+
     return 0;
 }
